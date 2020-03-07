@@ -7,7 +7,7 @@ loop do
   if apples_taken_out < apples_in_basket
     #taking out apple 1 
     puts "Taking out #{basket[apples_taken_out]}"
-
+    # increment by 1 
     apples_taken_out += 1 
   else
     break
